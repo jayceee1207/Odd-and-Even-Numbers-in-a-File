@@ -20,7 +20,9 @@ for number in read_content:
 #   convert number into an integer
     integer = int(number)
 #   if number is even
+    if integer % 2 == 0:
 #       append that number into the even numbers list
+        even_nums.append(integer)
 #   if number is odd
 #       append that number into the odd numbers list
 #open a file to store all numbers in even numbers list
