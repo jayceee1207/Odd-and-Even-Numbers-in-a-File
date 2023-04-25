@@ -24,7 +24,9 @@ for number in read_content:
 #       append that number into the even numbers list
         even_nums.append(integer)
 #   if number is odd
+    else:
 #       append that number into the odd numbers list
+        odd_nums.append(integer)
 #open a file to store all numbers in even numbers list
 #open a file to store all numbers in odd numbers list
 
