@@ -16,6 +16,7 @@ even_nums = []
 #Create a list where we store all the odd numbers
 odd_nums = []
 #Make a for loop for the number file
+
 for number in read_content:
 #   convert number into an integer
     integer = int(number)
@@ -30,5 +31,9 @@ for number in read_content:
 #open a file to store all numbers in even numbers list
 with open('even_numbers.txt','w') as outfile:
     outfile.write('\n'.join(map(str, even_nums)))
-#open a file to store all numbers in odd numbers list
 
+#open a file to store all numbers in odd numbers list
+with open('odd_numbers.txt','w') as outfile:
+    outfile.write('\n'.join(map(str, odd_nums)))
+
+print("Thank you for using our program!")
