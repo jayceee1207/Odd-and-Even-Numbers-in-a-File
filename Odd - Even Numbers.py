@@ -28,5 +28,7 @@ for number in read_content:
 #       append that number into the odd numbers list
         odd_nums.append(integer)
 #open a file to store all numbers in even numbers list
+with open('even_numbers.txt','w') as outfile:
+    outfile.write('\n'.join((str, even_nums)))
 #open a file to store all numbers in odd numbers list
 
