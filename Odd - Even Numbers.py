@@ -1,13 +1,14 @@
 #John Carlo Ablay
 #BSCPE 1-5
 #Assignment 4: Program 1
-#April 22, 2023
+#April 22, 2023R
 print("*********************************************************")
 print("READING A FILE WITH NUMBERS")
 print("Programmed by: John Carlo Ablay")
 print("*********************************************************")
 #PSEUDOCODE
 #Open a file named "numbers.txt"
+file_open = open("numbers.txt", "r")
 #Read every line of numbers
 #Create a list where we store all the even numbers
 #Create a list where we store all the odd numbers
