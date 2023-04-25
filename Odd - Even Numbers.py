@@ -2,7 +2,10 @@
 #BSCPE 1-5
 #Assignment 4: Program 1
 #April 22, 2023
-
+print("*********************************************************")
+print("READING A FILE WITH NUMBERS")
+print("Programmed by: John Carlo Ablay")
+print("*********************************************************")
 #PSEUDOCODE
 #Open a file named "numbers.txt"
 #Read every line of numbers
