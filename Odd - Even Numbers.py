@@ -10,6 +10,7 @@ print("*********************************************************")
 #Open a file named "numbers.txt"
 file_open = open("numbers.txt", "r")
 #Read every line of numbers
+read_content = file_open.readlines()
 #Create a list where we store all the even numbers
 #Create a list where we store all the odd numbers
 #Make a for loop for the number file
