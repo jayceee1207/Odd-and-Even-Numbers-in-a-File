@@ -16,7 +16,7 @@ even_nums = []
 #Create a list where we store all the odd numbers
 odd_nums = []
 #Make a for loop for the number file
-#for number in number file
+for number in read_content:
 #   convert nu mber into an integer
 #   if number is even
 #       append that number into the even numbers list
