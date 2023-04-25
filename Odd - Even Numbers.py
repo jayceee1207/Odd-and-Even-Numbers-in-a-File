@@ -1,11 +1,20 @@
 #John Carlo Ablay
 #BSCPE 1-5
 #Assignment 4: Program 1
-#April 22, 2023R
-print("*********************************************************")
-print("READING A FILE WITH NUMBERS")
-print("Programmed by: John Carlo Ablay")
-print("*********************************************************")
+#April 22, 2023
+
+import pyfiglet
+import emoji
+import os
+
+print("\u001b[37;1m","*********************************************************")
+print("\u001b[33;1m","ODD AND EVEN NUMBERS")
+print("\u001b[33;1m","Programmed by: John Carlo Ablay")
+print("\u001b[37;1m","*********************************************************")
+
+title = pyfiglet.figlet_format("\nODD AND EVEN NUMBERS", font = "digital" )
+print(title) 
+
 #PSEUDOCODE
 #Open a file named "numbers.txt"
 file_open = open("numbers.txt", "r")
@@ -30,10 +39,13 @@ for number in read_content:
         odd_nums.append(integer)
 #open a file to store all numbers in even numbers list
 with open('even_numbers.txt','w') as outfile:
+    outfile.write("EVEN NUMBERS\n")
     outfile.write('\n'.join(map(str, even_nums)))
 
 #open a file to store all numbers in odd numbers list
 with open('odd_numbers.txt','w') as outfile:
+    outfile.write("ODD NUMBERS\n")
     outfile.write('\n'.join(map(str, odd_nums)))
 
 print("Thank you for using our program!")
+print(emoji.emojize('Have a good day! :grinning_face:'))
